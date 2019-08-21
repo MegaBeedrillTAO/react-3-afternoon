@@ -1,0 +1,14 @@
+.buttonHolder{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 10vh;
+    width: 80vw;
+}
+
+button{
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+}

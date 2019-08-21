@@ -1,0 +1,21 @@
+.displayDiv{
+   height: 70vh;
+   width: 80vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.Name{
+    text-decoration-line: underline ;
+    text-decoration-color: #7fc3f0;
+}
+span{
+    font-weight: bold;
+    font-size: 25px;
+}
+p{
+    font-size: 23px;
+}
+li{
+    font-size: 23px;
+}
