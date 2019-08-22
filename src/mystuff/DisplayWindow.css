@@ -4,6 +4,8 @@
     background-color: white;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    
 }
 .Name{
     text-decoration-line: underline ;
@@ -18,4 +20,11 @@ p{
 }
 li{
     font-size: 23px;
+}
+.Counter{
+    align-self: flex-end;
+    
+   
+    
+   
 }

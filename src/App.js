@@ -15,10 +15,14 @@ class App extends React.Component {
     }
 }
   buttonClickPlus = () =>{
+    if (this.state.indexNum < 25){
     this.setState({arrayNum: this.state.arrayNum + 1, indexNum: this.state.indexNum + 1})
+    }
   }
   buttonClickMinus = () =>{
+    if (this.state.indexNum > 1){
     this.setState({arrayNum: this.state.arrayNum - 1, indexNum: this.state.indexNum - 1})
+    }
   }
   render(){
   return (

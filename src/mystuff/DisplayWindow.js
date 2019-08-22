@@ -23,7 +23,7 @@ class DisplayWindow extends React.Component{
                         <li>{Data[this.props.arrayNum].favoriteMovies[2]}</li>
                     </ol>
                 </footer>
-                <h1>{this.props.indexNum}/25</h1>
+                <h1 className="Counter">{this.props.indexNum}/25</h1>
             </div>
             
             

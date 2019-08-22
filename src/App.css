@@ -6,6 +6,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  align-items: center;
 }
 
 .appHead{
@@ -14,7 +15,7 @@
   display: flex;
   flex-direction: row;
   background-color: #57a3d5;
-  padding: 0 40px;
+  
 }
 .appMain{
   height: 90vh;
